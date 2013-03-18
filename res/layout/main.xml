@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow>
+        <TextView/>
+        <TextView
+            android:text="Log in to your mailaccount" 
+            android:textSize="17sp" 
+            android:textStyle="bold" />
+    </TableRow>
+    <TableRow>
+    	<TextView
+        	android:text="Username: "
+        	android:width="90dp" />
+		<EditText
+	    	android:id="@+id/txtUserName"
+	    	android:width="60dp" />
+	</TableRow>
+	<TableRow>
+	    <TextView 
+	        android:text="Password: " />
+	    <EditText 
+	        android:id="@+id/txtPassword" 
+	        android:password="true" />
+	</TableRow>
+	<TableRow>
+	    <TextView/>
+	    <CheckBox android:id="@+id/chkRememberPassword"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="10sp"
+	        android:text="Remember Password" />
+	</TableRow>
+	<TableRow>
+		<TextView/>    
+	</TableRow>
+	<TableRow>
+	    <TextView/>
+	    <Button 
+	        android:id="@+id/buttonSignIn"
+	        android:layout_width="wrap_content"
+	        android:textSize="14sp"
+	        android:text="Log In" 
+	        android:onClick="onClick" />
+	</TableRow>
+	<TableRow>
+		<TextView/>    
+	</TableRow>
+	<TableRow>
+		<TextView/>    
+	</TableRow>
+	<TableRow>
+		<TextView/>    
+	</TableRow>
+	<TableRow>
+		<TextView/>    
+	</TableRow>
+	<TableRow>
+		<TextView/>   
+		<Button 
+	        android:id="@+id/buttonSignUp"
+	        android:layout_width="wrap_content"
+	        android:textSize="14sp"
+	        android:text="Sign Up" />
+	</TableRow>
+</TableLayout>
